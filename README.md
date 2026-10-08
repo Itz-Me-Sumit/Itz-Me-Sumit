@@ -77,3 +77,123 @@ Deep Learning fundamentals to modern architectures, implemented from scratch and
 🔗 **Repository:** [Itz-Me-Sumit/Deep-Learning](https://github.com/Itz-Me-Sumit/Deep-Learning)
 
 <br>
+
+<!-- ================= AI ENGINEERING ================= -->
+### 🤖 AI Engineering
+
+> *"Models are the engine. Engineering is what makes them useful."*
+
+Building LLM-powered systems end to end: from prompting and orchestration to retrieval pipelines, autonomous agents and production deployment. The umbrella repository links three focused repositories, each covering one layer of the modern AI stack.
+
+🔗 **Umbrella Repository:** [Itz-Me-Sumit/AI-Engineering](https://github.com/Itz-Me-Sumit/AI-Engineering)
+
+<br>
+
+#### 💬 Generative AI
+
+> *"From a single prompt to composable LLM pipelines."*
+
+- **LLM Fundamentals:** model integration, prompt engineering, structured output parsing
+- **LangChain Core:** chains, runnables (LCEL), memory, tool calling
+- **Data Ingestion:** document loaders, text splitters
+- **Retrieval Basics:** embeddings, vector stores, retrievers
+
+<p>
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
+<img src="https://img.shields.io/badge/OpenAI%20API-412991?style=flat-square&logo=openai&logoColor=white" />
+<img src="https://img.shields.io/badge/Vector%20Stores-6a11cb?style=flat-square" />
+<img src="https://img.shields.io/badge/Prompt%20Engineering-2575fc?style=flat-square" />
+</p>
+
+🔗 **Repository:** [Itz-Me-Sumit/GenAI](https://github.com/Itz-Me-Sumit/GenAI)
+
+<br>
+
+#### 🔎 Advanced RAG
+
+> *"Retrieval that is accurate, grounded and measurable."*
+
+Retrieval-Augmented Generation beyond the naive pipeline: improving retrieval quality, grounding responses in source documents and evaluating the system end to end.
+
+- **Retrieval Optimization:** chunking strategies, hybrid search, re-ranking, query transformation
+- **Pipeline Design:** multi-step and context-aware retrieval
+- **Evaluation:** faithfulness, relevance and retrieval metrics
+
+<p>
+<img src="https://img.shields.io/badge/RAG-6a11cb?style=flat-square" />
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
+<img src="https://img.shields.io/badge/Embeddings-2575fc?style=flat-square" />
+</p>
+
+🔗 **Repository:** [Itz-Me-Sumit/Advance-RAG](https://github.com/Itz-Me-Sumit/Advance-RAG)
+
+<br>
+
+#### 🕹️ Agentic AI
+
+> *"Systems that plan, use tools and act."*
+
+Designing autonomous, tool-using agents with stateful, graph-based orchestration.
+
+- **Agent Orchestration:** LangGraph state machines, nodes, edges and conditional routing
+- **Tool Use:** function calling and Model Context Protocol (MCP) integration
+- **Observability:** tracing and debugging agent runs with LangSmith
+
+<p>
+<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square" />
+<img src="https://img.shields.io/badge/LangSmith-1C3C3C?style=flat-square" />
+<img src="https://img.shields.io/badge/MCP-000000?style=flat-square" />
+</p>
+
+🔗 **Repository:** [Itz-Me-Sumit/Agentic-AI](https://github.com/Itz-Me-Sumit/Agentic-AI)
+
+<br>
+
+<!-- ================= PROJECTS ================= -->
+## 🚀 ML / DL / AI Projects
+
+<!-- ================= CHATBOT ================= -->
+### 💡 Chatbot: Agentic RAG Assistant
+
+> *"A production-deployed, tool-using AI assistant, from model to cloud."*
+
+A full-stack conversational AI system built on an agentic architecture. The backend orchestrates LLM workflows with LangChain and LangGraph, retrieves grounded context through an Advanced RAG pipeline, and calls external tools via the Model Context Protocol (MCP). Runs are traced and debugged with LangSmith. The React frontend talks to a FastAPI service backed by PostgreSQL, and the entire stack is containerized with Docker and deployed on an AWS EC2 instance.
+
+**Highlights**
+- Agentic workflow design with LangGraph (stateful, multi-step reasoning)
+- Advanced RAG for accurate, source-grounded answers
+- MCP integration for standardized tool access
+- LangSmith tracing for observability and debugging
+- REST API with FastAPI, persistence with PostgreSQL
+- Responsive React and TypeScript frontend
+- Dockerized and deployed on AWS EC2
+
+<p>
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
+<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square" />
+<img src="https://img.shields.io/badge/LangSmith-1C3C3C?style=flat-square" />
+<img src="https://img.shields.io/badge/MCP-000000?style=flat-square" />
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+<img src="https://img.shields.io/badge/AWS%20EC2-FF9900?style=flat-square&logo=amazonec2&logoColor=white" />
+</p>
+
+🔗 **Repository:** [Itz-Me-Sumit/Chatbot](https://github.com/Itz-Me-Sumit/Chatbot)
+
+<br>
+
+<!-- ================= AI SUPPORT TICKET AUTOMATION ================= -->
+### 🎫 AI Support Ticket Automation
+
+> *"Intelligent triage, from ticket to resolution."*
+
+🚧 **In progress.** Details, architecture and tech stack coming soon.
+
+<!-- TODO: add description, highlights, tech badges -->
+
+🔗 **Repository:** *Coming soon*
+
+<br>
