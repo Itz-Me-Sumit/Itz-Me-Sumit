@@ -13,9 +13,58 @@ I implement algorithms from first principles, then scale them into real systems:
 
 <br>
 
+## 💼 Working Experience:
+
+<!-- ================= CHATBOT ================= -->
+### 💡 Chatbot: Agentic RAG Assistant
+
+> *"A production-deployed, tool-using AI assistant, from model to cloud."*
+
+A full-stack conversational AI system built on an agentic architecture. The backend orchestrates LLM workflows with LangChain and LangGraph, retrieves grounded context through an Advanced RAG pipeline, and calls external tools via the Model Context Protocol (MCP). Runs are traced and debugged with LangSmith. The React frontend talks to a FastAPI service backed by PostgreSQL, and the entire stack is containerized with Docker and deployed on an AWS EC2 instance.
+
+**Highlights**
+- Agentic workflow design with LangGraph (stateful, multi-step reasoning)
+- Advanced RAG for accurate, source-grounded answers
+- MCP integration for standardized tool access
+- LangSmith tracing for observability and debugging
+- REST API with FastAPI, persistence with PostgreSQL
+- Responsive React and TypeScript frontend
+- Dockerized and deployed on AWS EC2
+
+<p>
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
+<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square" />
+<img src="https://img.shields.io/badge/LangSmith-1C3C3C?style=flat-square" />
+<img src="https://img.shields.io/badge/MCP-000000?style=flat-square" />
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+<img src="https://img.shields.io/badge/AWS%20EC2-FF9900?style=flat-square&logo=amazonec2&logoColor=white" />
+</p>
+
+🔗 **Repository:** [Itz-Me-Sumit/Chatbot](https://github.com/Itz-Me-Sumit/Chatbot)
+
+<br>
+
+<!-- ================= AI SUPPORT TICKET AUTOMATION ================= -->
+### 🎫 AI Support Ticket Automation
+
+> *"Intelligent triage, from ticket to resolution."*
+
+🚧 **In progress.** Details, architecture and tech stack coming soon.
+
+<!-- TODO: add description, highlights, tech badges -->
+
+🔗 **Repository:** [Itz-Me-Sumit/AI-SUPPORT-TICKET-AUTOMATION](https://github.com/Itz-Me-Sumit/AI-SUPPORT-TICKET-AUTOMATION)
+
+<br>
+
 
 <!-- ================= DATA SCIENCE ================= -->
-## 💼 Working Experience:
+
+### 📚 Learning Journey
 
 ### 📊 Data Science
 
@@ -161,54 +210,5 @@ Designing autonomous, tool-using agents with stateful, graph-based orchestration
 </p>
 
 🔗 **Repository:** [Itz-Me-Sumit/Agentic-AI](https://github.com/Itz-Me-Sumit/Agentic-AI)
-
-<br>
-
-<!-- ================= PROJECTS ================= -->
-## 🚀 ML / DL / AI Projects
-
-<!-- ================= CHATBOT ================= -->
-### 💡 Chatbot: Agentic RAG Assistant
-
-> *"A production-deployed, tool-using AI assistant, from model to cloud."*
-
-A full-stack conversational AI system built on an agentic architecture. The backend orchestrates LLM workflows with LangChain and LangGraph, retrieves grounded context through an Advanced RAG pipeline, and calls external tools via the Model Context Protocol (MCP). Runs are traced and debugged with LangSmith. The React frontend talks to a FastAPI service backed by PostgreSQL, and the entire stack is containerized with Docker and deployed on an AWS EC2 instance.
-
-**Highlights**
-- Agentic workflow design with LangGraph (stateful, multi-step reasoning)
-- Advanced RAG for accurate, source-grounded answers
-- MCP integration for standardized tool access
-- LangSmith tracing for observability and debugging
-- REST API with FastAPI, persistence with PostgreSQL
-- Responsive React and TypeScript frontend
-- Dockerized and deployed on AWS EC2
-
-<p>
-<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
-<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square" />
-<img src="https://img.shields.io/badge/LangSmith-1C3C3C?style=flat-square" />
-<img src="https://img.shields.io/badge/MCP-000000?style=flat-square" />
-<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
-<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-<img src="https://img.shields.io/badge/AWS%20EC2-FF9900?style=flat-square&logo=amazonec2&logoColor=white" />
-</p>
-
-🔗 **Repository:** [Itz-Me-Sumit/Chatbot](https://github.com/Itz-Me-Sumit/Chatbot)
-
-<br>
-
-<!-- ================= AI SUPPORT TICKET AUTOMATION ================= -->
-### 🎫 AI Support Ticket Automation
-
-> *"Intelligent triage, from ticket to resolution."*
-
-🚧 **In progress.** Details, architecture and tech stack coming soon.
-
-<!-- TODO: add description, highlights, tech badges -->
-
-🔗 **Repository:** [Itz-Me-Sumit/AI-SUPPORT-TICKET-AUTOMATION](https://github.com/Itz-Me-Sumit/AI-SUPPORT-TICKET-AUTOMATION)
 
 <br>
