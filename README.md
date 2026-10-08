@@ -1,47 +1,75 @@
-### Hi, I'm Sumit 👋
+<!-- ================= HEADER ================= -->
+<div align="center">
 
-BS Data Science student at IIT Madras. Main ML, Deep Learning aur GenAI seekh raha hu, aur saath me full-stack applications bhi build karta hu. Neeche meri learning journey aur projects hain.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6a11cb,100:2575fc&height=200&section=header&text=Hi%2C%20I'm%20Sumit&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Data%20Science%20%7C%20GenAI%20%7C%20Full%20Stack&descAlignY=58&descSize=20" width="100%" />
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<p>
+<img src="https://img.shields.io/badge/IIT%20Madras-BS%20Data%20Science-6a11cb?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Google-Gemini%20Student%20Ambassador-4285F4?style=for-the-badge&logo=google&logoColor=white" />
+</p>
 
-<h4>📊 Data Science</h4>
-<p>Python basics se lekar advanced AI tak ka safar: Maths, Statistics, NumPy, Pandas, Matplotlib, Seaborn, Machine Learning aur Deep Learning.</p>
-<p>🔗 <a href="https://github.com/Itz-Me-Sumit/Data-Science">Data-Science</a></p>
+<p><i>"Learning in public, building in public."</i></p>
 
-<h4>🤖 AI Engineering</h4>
-<p>GenAI, Advanced RAG aur Agentic AI ke notebooks aur experiments.</p>
-<ul>
-<li><a href="https://github.com/Itz-Me-Sumit/AI-Engineering">AI-Engineering</a></li>
-<li><a href="https://github.com/Itz-Me-Sumit/GenAI">GenAI</a></li>
-<li><a href="https://github.com/Itz-Me-Sumit/Advance-RAG">Advance-RAG</a></li>
-<li><a href="https://github.com/Itz-Me-Sumit/Agentic-AI">Agentic-AI</a></li>
-</ul>
+</div>
 
-<h4>🚀 Projects</h4>
-<p>End-to-end projects jo maine build kiye.</p>
-<ul>
-<li><a href="https://github.com/Itz-Me-Sumit/Chatbot">Chatbot</a></li>
-<li><a href="https://github.com/Itz-Me-Sumit/PROJECT-2">Project 2</a></li>
-<li><a href="https://github.com/Itz-Me-Sumit/PROJECT-3">Project 3</a></li>
-</ul>
+<!-- ================= ABOUT ================= -->
+### 👨‍💻 About Me
 
-</td>
-<td width="50%" valign="top">
+- 🎓 IIT Madras se **BS in Data Science and Applications** kar raha hu
+- 🤖 Machine Learning, Deep Learning aur **GenAI / Agentic AI** pe deep focus
+- 🌐 Saath me **full-stack applications** build karta hu (Java Spring Boot, React, FastAPI)
+- 📚 Maths, Statistics aur DSA ko strong rakhne pe kaam chal raha hai
+- 🎯 Goal: AI Engineer ban ke product-based companies me kaam karna aur research papers publish karna
 
-<h4>🌐 Full Stack Web Development</h4>
-<p>Frontend se backend tak ke web development projects aur practice.</p>
-<p>🔗 <a href="https://github.com/Itz-Me-Sumit/Full_Stack_Web_Development">Full_Stack_Web_Development</a></p>
+<!-- ================= TECH STACK ================= -->
+### 🛠️ Tech Stack
 
-<h4>☕ Java Spring Boot</h4>
-<p>Spring Boot ke concepts, REST APIs aur backend practice.</p>
-<p>🔗 <a href="https://github.com/Itz-Me-Sumit/Java-SpringBoot">Java-SpringBoot</a></p>
+<div align="center">
 
-<h4>🎓 Placement Portal</h4>
-<p>Java Spring Boot + React + PostgreSQL pe bana full-stack Placement Portal.</p>
-<p>🔗 <a href="https://github.com/Itz-Me-Sumit/Placement-Portal_Java-Springboot_project">Placement-Portal_Java-Springboot_project</a></p>
+<p>
+<b>Languages</b><br>
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" />
+</p>
 
-</td>
-</tr>
-</table>
+<p>
+<b>Data Science and ML/DL</b><br>
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+<img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" />
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+<img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
+</p>
+
+<p>
+<b>GenAI and Agents</b><br>
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
+<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge" />
+<img src="https://img.shields.io/badge/RAG-6a11cb?style=for-the-badge" />
+<img src="https://img.shields.io/badge/MCP-000000?style=for-the-badge" />
+</p>
+
+<p>
+<b>Backend, Frontend and DevOps</b><br>
+<img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" />
+<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+</p>
+
+</div>
+
+<!-- ================= GITHUB STATS ================= -->
+### 📈 GitHub Stats
+
+<div align="center">
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Itz-Me-Sumit&show_icons=true&theme=tokyonight&hide_border=true" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Itz-Me-Sumit&layout=compact&theme=tokyonight&hide_border=true" />
+</div>
+
+<br>
