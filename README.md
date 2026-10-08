@@ -62,9 +62,11 @@ A full-stack conversational AI system built on an agentic architecture. The back
 <br>
 
 
-<!-- ================= DATA SCIENCE ================= -->
 
-### 📚 Learning Journey
+
+## 📚 Learning Journey:
+
+<!-- ================= DATA SCIENCE ================= -->
 
 ### 📊 Data Science
 
