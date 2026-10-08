@@ -44,8 +44,9 @@ A full-stack conversational AI system built on an agentic architecture. The back
 <img src="https://img.shields.io/badge/AWS%20EC2-FF9900?style=flat-square&logo=amazonec2&logoColor=white" />
 </p>
 
-🔗 **Repository:** [Itz-Me-Sumit/Chatbot](https://github.com/Itz-Me-Sumit/Chatbot)
-🔗 **Live Demo:** [chatbot]([https://github.com/Itz-Me-Sumit/Chatbot)](https://13-203-14-221.sslip.io/)
+🔗 **Repository:** [GitHub Repository](https://github.com/Itz-Me-Sumit/Chatbot)
+
+🌐 **Live Demo:** [Chatbot](https://13-203-14-221.sslip.io/)
 
 <br>
 
