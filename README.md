@@ -12,7 +12,7 @@ I implement algorithms from first principles, then scale them into real systems:
 
 
 <br>
-# 💼 Working Experience:
+## 💼 Working Experience:
 
 
 <!-- ================= DATA SCIENCE ================= -->
