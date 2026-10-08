@@ -13,10 +13,10 @@ I implement algorithms from first principles, then scale them into real systems:
 
 <br>
 
-## 💼 Working Experience:
-
 
 <!-- ================= DATA SCIENCE ================= -->
+## 💼 Working Experience:
+
 ### 📊 Data Science
 
 > *"Data is the raw material. Mathematics is the language. Models are the story it tells."*
