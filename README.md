@@ -9,7 +9,7 @@ I implement algorithms from first principles, then scale them into real systems:
 
 **🎯 Focus Areas:** Machine Learning · Deep Learning · GenAI · Agentic AI · MLOps · Full-Stack Development
 
-**💼 Working Experience:**
+## 💼 Working Experience:
 
 <br>
 <!-- ================= DATA SCIENCE ================= -->
