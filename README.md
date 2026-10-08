@@ -209,6 +209,6 @@ A full-stack conversational AI system built on an agentic architecture. The back
 
 <!-- TODO: add description, highlights, tech badges -->
 
-🔗 **Repository:** *Coming soon*
+🔗 **Repository:** [Itz-Me-Sumit/AI-SUPPORT-TICKET-AUTOMATION](https://github.com/Itz-Me-Sumit/AI-SUPPORT-TICKET-AUTOMATION)
 
 <br>
