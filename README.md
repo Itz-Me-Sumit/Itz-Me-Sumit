@@ -1,5 +1,5 @@
 <!-- ================= PROFESSIONAL SUMMARY ================= -->
-### 🧬 Summary
+### 🧑‍🦰 Sumit
 
 > *"I don't just train models. I engineer the entire path from raw data to deployed intelligence."*
 
