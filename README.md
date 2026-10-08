@@ -1,6 +1,15 @@
-<!-- ================= LEARNING JOURNEY ================= -->
-## 📚 Learning Journey
+<!-- ================= PROFESSIONAL SUMMARY ================= -->
+### 🧬 Summary
 
+> *"I don't just train models. I engineer the entire path from raw data to deployed intelligence."*
+
+I'm a **BS Data Science and Applications** student at **IIT Madras** and a **Google Gemini Student Ambassador**, with a deep focus on building intelligent systems end to end. My foundation is mathematics and statistics, my craft is Machine Learning and Deep Learning, and my frontier is **GenAI, Advanced RAG and Agentic AI**.
+
+I implement algorithms from first principles, then scale them into real systems: from EDA, feature engineering and model training, to MLOps, LLM orchestration with LangChain and LangGraph, and full-stack deployment on the cloud. Alongside, I sharpen **DSA** and problem solving, and I'm working toward publishing research and building production-grade AI at product-based companies.
+
+**🎯 Focus Areas:** Machine Learning · Deep Learning · GenAI · Agentic AI · MLOps · Full-Stack Development
+
+<br>
 <!-- ================= DATA SCIENCE ================= -->
 ### 📊 Data Science
 
