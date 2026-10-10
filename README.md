@@ -55,9 +55,33 @@ A full-stack conversational AI system built on an agentic architecture. The back
 
 > *"Intelligent triage, from ticket to resolution."*
 
-🚧 **In progress.** Details, architecture and tech stack coming soon.
+A full-stack application that turns a raw customer support message into a structured case and a ready-to-send reply. Each ticket passes through a four-stage LangChain pipeline: triage (category, priority, language), category-specific case analysis, a resolution decision, and a reply written in the customer's own language. Every stage returns validated Pydantic output, so the system never depends on free-form text. The FastAPI backend runs the pipeline asynchronously and stores every result, the React frontend provides a submission form and a analytics dashboard, and the whole stack is containerized with Docker Compose and served through nginx.
 
-<!-- TODO: add description, highlights, tech badges -->
+**Highlights**
+- Multi-stage LangChain pipeline with a router that sends each ticket to one of six category-specific analysis chains
+- Structured output with Pydantic schemas at every stage
+- Human-in-the-loop rule: critical tickets always require a human agent, regardless of the model's decision
+- Multilingual: detects the ticket language and replies in the same language
+- Honest failure handling: empty or invalid model output is stored as a failed ticket with a clear error instead of crashing
+- Async FastAPI REST API with request validation, search, filters and pagination
+- Dashboard with live stats, category, priority and resolution breakdowns, and a detailed ticket view
+- Batch upload from JSON with sequential processing and live per-ticket progress
+- Dark and light theme, responsive React interface
+- Dockerized with a multi-stage frontend build, nginx reverse proxy and a persistent database volume
+
+<p>
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
+<img src="https://img.shields.io/badge/OpenRouter-6467F2?style=flat-square" />
+<img src="https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white" />
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+<img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white" />
+<img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" />
+<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+<img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" />
+<img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+<img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white" />
+</p>
 
 🔗 **Repository:** [Itz-Me-Sumit/AI-SUPPORT-TICKET-AUTOMATION](https://github.com/Itz-Me-Sumit/AI-SUPPORT-TICKET-AUTOMATION)
 
