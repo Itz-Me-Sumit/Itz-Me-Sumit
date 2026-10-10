@@ -50,6 +50,10 @@ A full-stack application that turns a raw customer support message into a struct
 
 🔗 **Repository:** [Itz-Me-Sumit/AI-SUPPORT-TICKET-AUTOMATION](https://github.com/Itz-Me-Sumit/AI-SUPPORT-TICKET-AUTOMATION)
 
+🌐 **Live Demo:** [AI Support Ticket Automation]([https://13-203-14-221.sslip.io/](https://3-107-146-58.sslip.io/))
+
+
+
 <br>
 
 
