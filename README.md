@@ -15,27 +15,30 @@ I implement algorithms from first principles, then scale them into real systems:
 
 ## 💼 Working Experience:
 
-<!-- ================= AI SUPPORT TICKET AUTOMATION ================= -->
-### 🎫 AI Support Ticket Automation
+<!-- ================= AI VOICE SUPPORT DESK ================= -->
+### 🎫 AI Voice Support Desk (AI Support Ticket Automation)
 
-> *"Intelligent triage, from ticket to resolution."*
+> *"Voice in, triaged ticket out, and a human for every refund."*
 
-A full-stack application that turns a raw customer support message into a structured case and a ready-to-send reply. Each ticket passes through a four-stage LangChain pipeline: triage (category, priority, language), category-specific case analysis, a resolution decision, and a reply written in the customer's own language. Every stage returns validated Pydantic output, so the system never depends on free-form text. The FastAPI backend runs the pipeline asynchronously and stores every result, the React frontend provides a submission form and a analytics dashboard, and the whole stack is containerized with Docker Compose and served through nginx.
+A voice helpdesk built for the Bolna Buildathon on top of my AI Support Ticket Automation project. A caller talks to a voice agent and gets answers from a knowledge base through a RAG endpoint. When the call ends, the transcript runs through a four-stage LangChain pipeline (triage, category-specific analysis, resolution decision, drafted reply) and shows up in a React dashboard as a ticket with the full call transcript. Money decisions are never made by the AI: refunds, billing disputes and security incidents always go to a human, enforced both in the prompt and in code. The knowledge base is a synthetic dataset for a fictional company, so the evaluation numbers below describe this demo, not real-world accuracy.
 
 **Highlights**
-- Multi-stage LangChain pipeline with a router that sends each ticket to one of six category-specific analysis chains
-- Structured output with Pydantic schemas at every stage
-- Human-in-the-loop rule: critical tickets always require a human agent, regardless of the model's decision
-- Multilingual: detects the ticket language and replies in the same language
-- Honest failure handling: empty or invalid model output is stored as a failed ticket with a clear error instead of crashing
-- Async FastAPI REST API with request validation, search, filters and pagination
-- Dashboard with live stats, category, priority and resolution breakdowns, and a detailed ticket view
-- Batch upload from JSON with sequential processing and live per-ticket progress
-- Dark and light theme, responsive React interface
-- Dockerized with a multi-stage frontend build, nginx reverse proxy and a persistent database volume
+- Voice agent on Bolna with a custom function that calls a FastAPI RAG endpoint, with the caller's question rewritten in English even for Hindi and Hinglish calls
+- RAG built by hand: heading-aware chunking (7 documents, 77 chunks), local ONNX embeddings, cosine retrieval with a score gate, and answers limited to the retrieved text; if nothing relevant is found, the agent says it does not know
+- Post-call webhook runs the four-stage pipeline in the background, so the live call only waits for one retrieval and one short LLM answer; ticket IDs come from the call ID, so repeated deliveries never create duplicates
+- Every stage returns validated Pydantic output, and empty or invalid model output is stored as a failed ticket with a clear error instead of crashing
+- Evaluation on 50 labeled questions (half paraphrased, spoken-style): hit@1 96% on easy and 80% on hard questions, hit@3 100% and 96%
+- Compared plain vector search with hybrid search (BM25) and cross-encoder reranking: no measurable gain at this size, so the demo keeps vector search
+- Answer safety check on 13 questions the documents cannot answer: retrieval stopped 7, the answer prompt refused the other 6
+- Latency: answer endpoint median 2.35 s (p95 5.63 s) over 20 timed calls; ticket pipeline from about 60 s to under 15 s after moving off a free model
+- Reliability: retries with backoff on rate limits, a fallback model for live answers, and a shared secret header on the voice endpoints
+- React dashboard with Voice badge, call transcript view, live stats, search and filters, batch upload, and dark and light themes
+- Dockerized and deployed on AWS EC2 with Docker Compose, Nginx and Caddy (automatic HTTPS), with rate limiting and destructive endpoints disabled on the public demo
 
 <p>
+<img src="https://img.shields.io/badge/Bolna-Voice%20AI-6467F2?style=flat-square" />
 <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
+<img src="https://img.shields.io/badge/RAG-6a11cb?style=flat-square" />
 <img src="https://img.shields.io/badge/OpenRouter-6467F2?style=flat-square" />
 <img src="https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white" />
 <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
@@ -46,16 +49,14 @@ A full-stack application that turns a raw customer support message into a struct
 <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
 <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
 <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white" />
+<img src="https://img.shields.io/badge/AWS%20EC2-FF9900?style=flat-square&logo=amazonec2&logoColor=white" />
 </p>
 
 🔗 **Repository:** [Itz-Me-Sumit/AI-SUPPORT-TICKET-AUTOMATION](https://github.com/Itz-Me-Sumit/AI-SUPPORT-TICKET-AUTOMATION)
 
-🌐 **Live Demo:** [AI Support Ticket Automation](https://3-107-146-58.sslip.io/)
-
-
+🌐 **Live Demo:** [AI Voice Support Desk](https://3-107-146-58.sslip.io/)
 
 <br>
-
 
 <!-- ================= CHATBOT ================= -->
 ### 💡 Chatbot: Agentic RAG Assistant
