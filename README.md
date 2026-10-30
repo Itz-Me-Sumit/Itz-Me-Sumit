@@ -18,7 +18,7 @@ I implement algorithms from first principles, then scale them into real systems:
 <!-- ================= AI VOICE SUPPORT DESK ================= -->
 ### 🎫 AI Voice Support Desk (AI Support Ticket Automation)
 
-> *"Voice in, triaged ticket out, and a human for every refund."*
+> *"Voice in, triaged ticket out, and a human where AI in not Allowed to interven."*
 
 A voice helpdesk built for the Bolna Buildathon on top of my AI Support Ticket Automation project. A caller talks to a voice agent and gets answers from a knowledge base through a RAG endpoint. When the call ends, the transcript runs through a four-stage LangChain pipeline (triage, category-specific analysis, resolution decision, drafted reply) and shows up in a React dashboard as a ticket with the full call transcript. Money decisions are never made by the AI: refunds, billing disputes and security incidents always go to a human, enforced both in the prompt and in code. The knowledge base is a synthetic dataset for a fictional company, so the evaluation numbers below describe this demo, not real-world accuracy.
 
